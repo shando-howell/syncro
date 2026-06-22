@@ -59,23 +59,27 @@ export default async function HomePage() {
         </div>
 
         {/* Feature Highlights */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-24 text-left">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-16">
+          <div>
           <div className="p-6 rounded-2xl bg-neutral-50 border border-neutral-100">
-            <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center
+            {/* <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center
             justify-center mb-4">
-              <Zap className="w-6 h-6" />
-            </div>
+              <div>
+                <Zap className="w-6 h-6" />
+              </div>
+            </div> */}
             <h3 className="text-lg font-semibold mb-2">Real-Time Sync</h3>
             <p className="text-neutral-500 text-smj leading-relaxed">
               Changes stream instantly across all clients using robust WebSocket infrastructure.
             </p>
+            </div>
           </div>
           
           <div className="p-6 rounded-2xl bg-neutral-50 border border-neutral-100">
-            <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center
+            {/* <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center
             justify-center mb-4">
               <Layout className="w-6 h-6" />
-            </div>
+            </div> */}
             <h3 className="text-lg font-semibold mb-2">Multiplayer Boards</h3>
             <p className="text-neutral-500 text-smj leading-relaxed">
               Drag and drop tickets with built-in optimistic concurrency control.
@@ -83,13 +87,13 @@ export default async function HomePage() {
           </div>
 
           <div className="p-6 rounded-2xl bg-neutral-50 border border-neutral-100">
-            <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center
+            {/* <div className="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center
             justify-center mb-4">
               <Shield className="w-6 h-6" />
-            </div>
+            </div> */}
             <h3 className="text-lg font-semibold mb-2">Secure Isolation</h3>
             <p className="text-neutral-500 text-smj leading-relaxed">
-              Granuular RBAC ensures your workspace data is completely isolated and secure.
+              Granular RBAC ensures your workspace data is completely isolated and secure.
             </p>
           </div>
         </div>
